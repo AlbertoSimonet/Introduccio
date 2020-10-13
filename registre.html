@@ -12,18 +12,18 @@
     <div class="formulari">
         <!--Form para todo el documento-->
         <!--Div de nombre y apellidos-->
-        <form action="registre.html">
+        <form action="registre.html" method="get">
             <label for="nom">Nom</label>
-            <input type="text" id="nom" required>
+            <input type="text" id="nom" name="nom" required>
             <label for="llinatge">Llinatge</label>
             <input type="text" id="llinatge" required>
             <button>Login</button>
         <!--Div para las selecciones radio-->
             <div class="seleccions">
                 <label for="home">Home:</label>
-                <input type="radio" id="home">
+                <input type="radio" id="home" name="sexe" checked>
                 <label for="dona">Dona:</label>
-                <input type="radio" id="dona">
+                <input type="radio" id="dona" name="sexe">
             </div>
         <!--Inputs de correo y contraseña-->    
             <div class="correu">
