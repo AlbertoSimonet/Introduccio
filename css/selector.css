@@ -7,10 +7,6 @@ h1 {
     color: #9b59b6;
 }
 
-h1:hover {
-    background-color: blue;
-}
-
 h2 {
     color: orange;
 }
@@ -35,7 +31,7 @@ input {
     border: 2px solid #00008B;
 }
 
-p {
+div>p {
     font-size: 25px;
 }
 
@@ -69,6 +65,10 @@ label {
 #special::first-letter {
     font-size: 100px;
     color: green;
+}
+
+h1:hover {
+    background-color: blue;
 }
 
 a:visited {
