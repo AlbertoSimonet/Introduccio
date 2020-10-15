@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<!--Un div para todos los apartados del formulario-->    
+    <div class="formulari">
+        <!--Form para todo el documento-->
+        <!--Div de nombre y apellidos-->
+        <form action="registre.html" method="get">
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="llinatge">Llinatge</label>
+            <input type="text" id="llinatge" required>
+            <button>Login</button>
+        <!--Div para las selecciones radio-->
+            <div class="seleccions">
+                <label for="home">Home:</label>
+                <input type="radio" id="home" name="sexe" checked>
+                <label for="dona">Dona:</label>
+                <input type="radio" id="dona" name="sexe">
+            </div>
+        <!--Inputs de correo y contraseña-->    
+            <div class="correu">
+                <label for="correu">Email</label>
+                <input type="email" id="correu">
+                <label for="contrasenya">Contrasenya</label>
+                <input type="password" maxlength="10" minlength="5" id="contrasenya">
+            </div>
+        <!--Inputo de calendario-->
+            <div class="data">
+                <label for="datanaix">Data de Naixement:</label>
+                <input type="date" id="datanaix">
+            </div>
+        <!--Input de checkbox-->    
+            <div class="acord">
+                <label for="acord">Estic d'acord amb el termes i condicions</label>
+                <input type="checkbox" id="acord">
+            </div>
+            <div class="submit">
+        <!--Boton submit-->
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
