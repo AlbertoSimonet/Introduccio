@@ -1,0 +1,28 @@
+
+h1{
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+td {
+    align-content: center;
+    border: 1px solid black;
+    padding: 5em;
+}
+
+.cero {
+    border-style: none;
+}
+
+.arriba_abajo {
+    border-top: none;
+    border-bottom: none;
+}
+
+.extremos {
+    border-left: none;
+    border-right: none;
+}
